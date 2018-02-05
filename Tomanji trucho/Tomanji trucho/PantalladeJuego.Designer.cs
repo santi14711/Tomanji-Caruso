@@ -47,6 +47,9 @@
             this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
+
+            this.button7 = new System.Windows.Forms.Button();
+
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -283,11 +286,26 @@
             this.button6.Text = " ✖";
             this.button6.UseVisualStyleBackColor = false;
             // 
+
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(468, 330);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(120, 35);
+            this.button7.TabIndex = 15;
+            this.button7.Text = "cumplio";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Visible = false;
+            // 
+
             // PantalladeJuego
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
             this.ClientSize = new System.Drawing.Size(1056, 695);
+
+            this.Controls.Add(this.button7);
+
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label6);
@@ -343,5 +361,8 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button6;
+
+        private System.Windows.Forms.Button button7;
+
     }
 }
