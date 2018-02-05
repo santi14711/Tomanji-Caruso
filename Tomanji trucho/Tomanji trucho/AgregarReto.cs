@@ -20,6 +20,8 @@ namespace Tomanji_trucho
         private void button1_Click(object sender, EventArgs e)
         {
             todo.CantidadRetos.Add(new Retos(textBox1.Text, Convert.ToInt32(textBox2.Text)));
+            textBox1.Text = "";
+            textBox2.Text = "";
         }
 
         private void button2_Click(object sender, EventArgs e)

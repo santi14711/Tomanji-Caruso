@@ -52,5 +52,42 @@ namespace Tomanji_trucho
             }
         }
 
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnCerrar_MouseHover(object sender, EventArgs e)
+        {
+            btnCerrar.ForeColor = Color.White;
+            btnCerrar.BackColor = Color.FromArgb(195, 35, 35);
+
+        }
+
+        private void btnCerrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnCerrar.ForeColor = Color.FromArgb(239, 156, 0);
+            btnCerrar.BackColor = Color.FromArgb(63, 63, 63);
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            if (todo.nombresjugadores.Count != 0 && todo.nombresjugadores.Count != 1)
+            {
+
+                this.Hide();
+                PantalladeJuego ingreso = new PantalladeJuego();
+                ingreso.Show();
+            }
+            else
+            {
+                MessageBox.Show("Debe de ingresar al menos dos personas.");
+            }
+        }
+
     }
 }

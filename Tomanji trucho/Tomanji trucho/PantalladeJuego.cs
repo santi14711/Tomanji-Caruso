@@ -27,9 +27,9 @@ namespace Tomanji_trucho
             turno = todo.TurnoJug.Next(0, todo.nombresjugadores.Count);
             label2.Text = Convert.ToString(todo.nombresjugadores[turno].Nombre);
           
-            Retos uno = new Retos("tomar 1 copa", 2);
+            Retos uno = new Retos("El jugador actual debe cantar libre soy en voz alta por 10 segundos y luego tomar.", 2);
             todo.CantidadRetos.Add(uno);
-            Retos dos = new Retos("tomar mucho bro", 5);
+            Retos dos = new Retos("Noubady misi clan misi down, de que cancion es esta letra?. Tiene un intento para adivinar.", 5);
             todo.CantidadRetos.Add(dos);
 
             randomretos = todo.TurnoJug.Next(0, todo.CantidadRetos.Count);
@@ -37,7 +37,7 @@ namespace Tomanji_trucho
             label3.Text = retoactual;
 
 
-            label4.Text = "Este reto vale: " + Convert.ToString(todo.CantidadRetos[randomretos].Puntos) + " puntos";
+            label4.Text = "" + Convert.ToString(todo.CantidadRetos[randomretos].Puntos) + "";
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace Tomanji_trucho
             randomretos = todo.TurnoJug.Next(0, todo.CantidadRetos.Count);
             label3.Text = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
 
-            label4.Text = "Este reto vale: "+Convert.ToString(todo.CantidadRetos[randomretos].Puntos)+" puntos";
+            label4.Text = Convert.ToString(todo.CantidadRetos[randomretos].Puntos);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,6 +82,36 @@ namespace Tomanji_trucho
 
             Puntajes punt = new Puntajes();
             punt.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

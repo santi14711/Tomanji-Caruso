@@ -12,3 +12,17 @@ c:\users\santi\source\repos\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_truc
 c:\users\santi\source\repos\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Inicio.resources
 c:\users\santi\source\repos\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.IngresoJugador.resources
 C:\Users\santi\source\repos\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Puntajes.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\bin\Debug\Tomanji trucho.exe.config
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\bin\Debug\Tomanji trucho.exe
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\bin\Debug\Tomanji trucho.pdb
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.csprojResolveAssemblyReference.cache
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.AgregarReto.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Inicio.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.IngresoJugador.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.PantalladeJuego.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Properties.Resources.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Puntajes.resources
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.csproj.GenerateResource.Cache
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.csproj.CoreCompileInputs.cache
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.exe
+C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.pdb
