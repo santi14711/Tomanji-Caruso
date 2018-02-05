@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Tomanji_trucho
 {
     partial class PantalladeJuego
@@ -371,6 +372,8 @@
 >>>>>>> master
     }
 =======
+=======
+>>>>>>> master
 ﻿namespace Tomanji_trucho
 {
     partial class PantalladeJuego
@@ -738,5 +741,8 @@
         private System.Windows.Forms.Button button7;
 
     }
+<<<<<<< HEAD
 >>>>>>> 39aa3f5d8c2e13f2cbc6bcdd45b7be7f3d0e7303
+=======
+>>>>>>> master
 }
