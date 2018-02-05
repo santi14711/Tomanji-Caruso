@@ -22,6 +22,9 @@ namespace Tomanji_trucho
             todo.CantidadRetos.Add(new Retos(textBox1.Text, Convert.ToInt32(textBox2.Text)));
             textBox1.Text = "";
             textBox2.Text = "";
+            //this.Hide();
+            //PantalladeJuego pan = new PantalladeJuego();
+            //pan.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

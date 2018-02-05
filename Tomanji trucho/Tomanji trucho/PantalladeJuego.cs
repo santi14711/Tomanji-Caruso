@@ -19,38 +19,39 @@ namespace Tomanji_trucho
         {
             InitializeComponent();
         }
-        int turno;
+        int NumeroJugador;
         int randomretos;
         string retoactual;
+        string jugactual;
+        int cantidadjugadores;
         private void PantalladeJuego_Load(object sender, EventArgs e)
         {
-            turno = todo.TurnoJug.Next(0, todo.nombresjugadores.Count);
-            label2.Text = Convert.ToString(todo.nombresjugadores[turno].Nombre);
-          
+            cantidadjugadores = todo.nombresjugadores.Count;
+
             Retos uno = new Retos("El jugador actual debe cantar libre soy en voz alta por 10 segundos y luego tomar.", 2);
             todo.CantidadRetos.Add(uno);
             Retos dos = new Retos("Noubady misi clan misi down, de que cancion es esta letra?. Tiene un intento para adivinar.", 5);
             todo.CantidadRetos.Add(dos);
 
+            NumeroJugador = todo.TurnoJug.Next(0, cantidadjugadores);
+            label2.Text = Convert.ToString(todo.nombresjugadores[NumeroJugador].Nombre);
+            jugactual = Convert.ToString(todo.nombresjugadores[NumeroJugador].Nombre);
+
+
             randomretos = todo.TurnoJug.Next(0, todo.CantidadRetos.Count);
-            retoactual = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
-            label3.Text = retoactual;
-
-
+            label3.Text = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
             label4.Text = "" + Convert.ToString(todo.CantidadRetos[randomretos].Puntos) + "";
+            retoactual = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
+
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            button2.Enabled = true;
-            button3.Enabled = true;
-            turno = todo.TurnoJug.Next(0, todo.nombresjugadores.Count);
-            label2.Text = Convert.ToString(todo.nombresjugadores[turno].Nombre);
+          //  button2.Enabled = true;
+           // button3.Enabled = true;
 
-            randomretos = todo.TurnoJug.Next(0, todo.CantidadRetos.Count);
-            label3.Text = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
-
-            label4.Text = Convert.ToString(todo.CantidadRetos[randomretos].Puntos);
+            PersonaAleatorio();
+            RetoAleatorio();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,7 +66,7 @@ namespace Tomanji_trucho
             button2.Enabled = false;
             button3.Enabled = false;
 
-            todo.nombresjugadores[turno].Puntos += todo.CantidadRetos[randomretos].Puntos;
+            todo.nombresjugadores[NumeroJugador].Puntos += todo.CantidadRetos[randomretos].Puntos;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -73,7 +74,7 @@ namespace Tomanji_trucho
             button3.Enabled = false;
             button2.Enabled = false;
 
-            todo.nombresjugadores[turno].Puntos -= todo.CantidadRetos[randomretos].Puntos;
+            todo.nombresjugadores[NumeroJugador].Puntos -= todo.CantidadRetos[randomretos].Puntos;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -84,6 +85,7 @@ namespace Tomanji_trucho
             punt.Show();
         }
 
+        #region "al pedo"
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -113,5 +115,46 @@ namespace Tomanji_trucho
         {
 
         }
+#endregion
+
+        private void PersonaAleatorio()
+        {
+            NumeroJugador = todo.TurnoJug.Next(0, cantidadjugadores);
+
+            if (jugactual!= Convert.ToString(todo.nombresjugadores[NumeroJugador].Nombre)) { 
+            
+            label2.Text = Convert.ToString(todo.nombresjugadores[NumeroJugador].Nombre);
+                jugactual = Convert.ToString(todo.nombresjugadores[NumeroJugador].Nombre);
+            }
+            else
+            {
+                PersonaAleatorio();
+            }
+        }
+        private void RetoAleatorio()
+        {
+            randomretos = todo.TurnoJug.Next(0, todo.CantidadRetos.Count);
+            if (retoactual != Convert.ToString(todo.CantidadRetos[randomretos].Reto)) { 
+            
+            label3.Text = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
+            label4.Text = "" + Convert.ToString(todo.CantidadRetos[randomretos].Puntos) + "";
+                retoactual= label3.Text = Convert.ToString(todo.CantidadRetos[randomretos].Reto);
+            }
+            else
+            {
+                RetoAleatorio();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            todo.CantidadRetos.RemoveAt(randomretos);
+            RetoAleatorio();
+        }
+
     }
+
+
+
 }
+

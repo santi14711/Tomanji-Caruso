@@ -89,6 +89,7 @@
             this.btnCerrar.TabIndex = 7;
             this.btnCerrar.Text = " ✖";
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             this.btnCerrar.MouseLeave += new System.EventHandler(this.btnCerrar_MouseLeave);
             this.btnCerrar.MouseHover += new System.EventHandler(this.btnCerrar_MouseHover);
             // 

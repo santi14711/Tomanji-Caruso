@@ -26,3 +26,16 @@ C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj
 C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.csproj.CoreCompileInputs.cache
 C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.exe
 C:\Users\bruxn\Documents\GitHub\Tomanji-Caruso\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.pdb
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\bin\Debug\Tomanji trucho.exe.config
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\bin\Debug\Tomanji trucho.exe
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\bin\Debug\Tomanji trucho.pdb
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.AgregarReto.resources
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Inicio.resources
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.IngresoJugador.resources
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.PantalladeJuego.resources
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Properties.Resources.resources
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji_trucho.Puntajes.resources
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.csproj.GenerateResource.Cache
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.exe
+C:\Users\santi\Desktop\Tomanji-Caruso-master\Tomanji trucho\Tomanji trucho\obj\Debug\Tomanji trucho.pdb

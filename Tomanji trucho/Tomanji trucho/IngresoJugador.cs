@@ -10,8 +10,7 @@ using System.Windows.Forms;
 
 namespace Tomanji_trucho
 {
-    
-
+   
     public partial class IngresoJugador : Form
     {
         
@@ -54,7 +53,7 @@ namespace Tomanji_trucho
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
         private void btnCerrar_MouseHover(object sender, EventArgs e)
         {
@@ -89,5 +88,11 @@ namespace Tomanji_trucho
             }
         }
 
+        
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+                    
+        }
     }
 }
