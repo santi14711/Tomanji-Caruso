@@ -28,10 +28,31 @@ namespace Tomanji_trucho
         {
             cantidadjugadores = todo.nombresjugadores.Count;
 
-            Retos uno = new Retos("El jugador actual debe cantar libre soy en voz alta por 10 segundos y luego tomar.", 2);
+            Retos uno = new Retos("El jugador de mayor edad debe tomar", 2);
             todo.CantidadRetos.Add(uno);
-            Retos dos = new Retos("Noubady misi clan misi down, de que cancion es esta letra?. Tiene un intento para adivinar.", 5);
+            Retos dos = new Retos("Puedes agregar, modificar o eliminar una Regla", 5);
             todo.CantidadRetos.Add(dos);
+            Retos fas = new Retos("El jugador actual debe cantar libre soy en voz alta por 10 segundos y luego tomar.", 2);
+            todo.CantidadRetos.Add(fas);
+            Retos UM = new Retos("Noubady misi clan misi down, de que cancion es esta letra?. Tiene un intento para adivinar.", 5);
+            todo.CantidadRetos.Add(UM);
+            Retos tres = new Retos("Numeros romanos comenzando desde el jugador actual, hacia la derecha, quien pierda toma.", 3);
+            todo.CantidadRetos.Add(tres);
+            Retos cuatro = new Retos("Los jugadores que hayan sido infieles deben tomar un sorbo por cada pareja engañada", 1);
+            todo.CantidadRetos.Add(cuatro);
+            Retos cinco = new Retos("Todos los jugadores que usen lentes deben tomar.", 1);
+            todo.CantidadRetos.Add(cinco);
+            Retos seis = new Retos("Puedes agregar, modificar o eliminar una Regla", 1);
+            todo.CantidadRetos.Add(seis);
+            Retos siete = new Retos("El jugador debe darle un beso no importa donde a un jugador de su eleccion, y regalarle los sorbos.", 8);
+            todo.CantidadRetos.Add(siete);
+            Retos ocho = new Retos("Los jugadores que esten en una especie de relacion deben tomar.", 3);
+            todo.CantidadRetos.Add(ocho);
+            Retos nueve = new Retos("El jugador actual debe jugar una pulseada con un jugador de su eleccion, si pierde debe tomar el doble.", 3);
+            todo.CantidadRetos.Add(nueve);
+            Retos diez = new Retos("El jugador actual puede hacerle 3 preguntas a otro jugador, las cuales debe responder con total sinceridad, por cada pregunta es un sorbo.", 1);
+            todo.CantidadRetos.Add(diez);
+
 
             NumeroJugador = todo.TurnoJug.Next(0, cantidadjugadores);
             label2.Text = Convert.ToString(todo.nombresjugadores[NumeroJugador].Nombre);
