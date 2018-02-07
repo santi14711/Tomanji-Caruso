@@ -52,6 +52,11 @@ namespace Tomanji_trucho
             todo.CantidadRetos.Add(nueve);
             Retos diez = new Retos("El jugador actual puede hacerle 3 preguntas a otro jugador, las cuales debe responder con total sinceridad, por cada pregunta es un sorbo.", 1);
             todo.CantidadRetos.Add(diez);
+            Retos B1= new Retos("El jugador actual debe tomar", 1);
+            todo.CantidadRetos.Add(B1);
+            Retos B2 = new Retos("Todos toman.", 1);
+            todo.CantidadRetos.Add(B2);
+
 
 
             NumeroJugador = todo.TurnoJug.Next(0, cantidadjugadores);

@@ -57,7 +57,7 @@
             // 
             this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.btnSiguiente.FlatAppearance.BorderSize = 0;
-            this.btnSiguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnSiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
             this.btnSiguiente.Location = new System.Drawing.Point(385, 605);
@@ -99,11 +99,12 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(156)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(11, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(676, 42);
+            this.label3.Size = new System.Drawing.Size(683, 45);
             this.label3.TabIndex = 3;
             this.label3.Text = "RetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoReto\r\nRetoRet" +
     "oRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoRetoReto\r\n";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label3.UseCompatibleTextRendering = true;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
