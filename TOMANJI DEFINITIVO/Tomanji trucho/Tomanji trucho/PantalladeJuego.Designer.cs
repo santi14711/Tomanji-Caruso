@@ -43,7 +43,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -230,26 +229,11 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(201, 519);
+            this.panel2.Location = new System.Drawing.Point(10, 519);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(958, 66);
+            this.panel2.Size = new System.Drawing.Size(1149, 66);
             this.panel2.TabIndex = 10;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(63)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Coral;
-            this.button6.Location = new System.Drawing.Point(1006, -1);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(50, 34);
-            this.button6.TabIndex = 7;
-            this.button6.Text = " ✖";
-            this.button6.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -326,7 +310,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.Label label7;
     }
